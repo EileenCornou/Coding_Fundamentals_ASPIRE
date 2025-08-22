@@ -39,3 +39,8 @@
 # -------------------------------------------
 
 # begin coding here...
+
+Nonfiction = ["Birds", "Rocks", "Plants", "Stars", "Physics"]
+School = ["Math 1", "Math 2", "Math 3", "English", "Science"]
+Fantasy = ["Hobbit", "Magic", "Dragons", "Myths"]
+
