@@ -1,0 +1,37 @@
+import example_function
+from example_function import hello_world
+
+
+
+def double(n):
+    return n * 2
+
+def hypotenuse(a, b):
+    return ((a**2 + b**2 ) ** 0.5)
+
+def safe_divide(a, b):
+    if b == 0:
+        return "cant divide by 0!"
+    return a/b
+
+def make_student(name, grade, school="helix high school"):
+    print(f"{name} is in {grade} grade and goes to {school}")
+
+
+def main():
+
+    hello_world()
+    
+    make_student("mark", "12th")
+    make_student("sam", "11th", "grossmont")
+
+    x = int(input("input a number"))
+    print(double(x))
+
+    a = int(input("Give a"))
+    b = int(input("give b"))
+    print(hypotenuse(a, b))
+
+
+if __name__ == "__main__":
+    main()
